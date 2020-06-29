@@ -15,32 +15,26 @@ class AppDrawer extends StatelessWidget {
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: <Widget>[
-            // DrawerHeader(
-            //   child: Text('Drawer Header'),
-            //   decoration: BoxDecoration(
-            //     color: Colors.blue,
-            //   ),
-            // ),
             ListTile(
-              title: Text('Главная'),
+              title: Text('Mani'),
               onTap: () {
                 _pushUntilSelected(context, ActinRoutes.activityList);
               },
             ),
             ListTile(
-              title: Text('Редактирование Activity'),
+              title: Text('Edit Activity'),
               onTap: () {
                 _pushUntilSelected(context, ActinRoutes.activityEdit);
               },
             ),
             ListTile(
-              title: Text('Профиль'),
+              title: Text('Profile'),
               onTap: () {
                 _pushUntilSelected(context, ActinRoutes.profile);
               },
             ),
             ListTile(
-              title: Text('Редактировать профиль'),
+              title: Text('Edit profile'),
               onTap: () {
                 _pushUntilSelected(context, ActinRoutes.editProfile);
               },
